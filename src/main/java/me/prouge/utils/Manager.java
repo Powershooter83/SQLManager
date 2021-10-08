@@ -42,12 +42,13 @@ public class Manager {
 
     }
 
-    private void executeQuery(String query) {
+    private ResultSet executeQuery(String query) {
         try {
-            getConnection().createStatement().executeQuery(query);
+            return getConnection().createStatement().executeQuery(query);
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        return null;
     }
 
     private void executeUpdate(String query) {
