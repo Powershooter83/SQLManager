@@ -5,13 +5,11 @@ Yes!
 #### Installation
 Um diese API mit Maven zu verwenden muss dieses Repository mit version control heruntergeladen werden und dann maven -> install.
 ```xml
-    <dependencies>
-        <dependency>
-            <groupId>me.prouge</groupId>
-            <artifactId>SQLManager</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-    </dependencies>
+    <dependency>
+        <groupId>me.prouge</groupId>
+        <artifactId>SQLManager</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </dependency>
 ```
 #### Documentation
 The first thing to do is to create a manager:
