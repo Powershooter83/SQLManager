@@ -2,7 +2,8 @@
 This API allows a simple processing of a SQL database. 
 
 #### Installation
-Um diese API mit Maven zu verwenden muss dieses Repository mit version control heruntergeladen werden und dann maven -> install.
+To use this API with Maven this repository must be downloaded with version control and then maven -> install.
+
 ```xml
     <dependency>
         <groupId>me.prouge</groupId>
