@@ -1,6 +1,5 @@
 #### SQLManager
 This API allows a simple processing of a SQL database. 
-Yes!
 
 #### Installation
 Um diese API mit Maven zu verwenden muss dieses Repository mit version control heruntergeladen werden und dann maven -> install.
